@@ -15,11 +15,13 @@ body {
 }
 
 body, html, div, span, td {
+/*
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+*/
 }
 
 #main {
