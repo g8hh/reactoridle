@@ -1,0 +1,268 @@
+
+.office {
+    background-image: url('../img/components/office.png');
+}
+
+.office2 {
+    background-image: url('../img/components/office2.png');
+}
+
+.office3 {
+    background-image: url('../img/components/office3.png');
+}
+
+.office4 {
+    background-image: url('../img/components/office4.png');
+}
+
+.office5 {
+    background-image: url('../img/components/office5.png');
+}
+
+.windTurbine {
+    background-image: url('../img/components/windTurbine.png');
+}
+
+.solarCell {
+    background-image: url('../img/components/solarCell.png');
+}
+
+.generator {
+    background-image: url('../img/components/generator.png');
+}
+
+.generator2 {
+    background-image: url('../img/components/generator2.png');
+}
+
+.generator3 {
+    background-image: url('../img/components/generator3.png');
+}
+
+.generator4 {
+    background-image: url('../img/components/generator4.png');
+}
+
+.generator5 {
+    background-image: url('../img/components/generator5.png');
+}
+
+.battery {
+    background-image: url('../img/components/battery.png');
+}
+
+.heatBattery {
+    background-image: url('../img/components/heatBattery.png');
+}
+
+.isolation {
+    background-image: url('../img/components/isolation.png');
+}
+
+.heatExchanger {
+    background-image: url('../img/components/heatExchanger.png');
+}
+
+.heatInlet {
+    background-image: url('../img/components/heatInlet.png');
+}
+
+.heatOutlet {
+    background-image: url('../img/components/heatOutlet.png');
+}
+
+.heatBooster {
+    background-image: url('../img/components/heatBooster.png');
+}
+
+.nuclearCell {
+    background-image: url('../img/components/nuclearCell.png');
+}
+
+.nuclearCell2 {
+    background-image: url('../img/components/nuclearCell2.png');
+}
+
+.nuclearCell3 {
+    background-image: url('../img/components/nuclearCell3.png');
+}
+
+.nuclearCell4 {
+    background-image: url('../img/components/nuclearCell4.png');
+}
+
+.nuclearCell5 {
+    background-image: url('../img/components/nuclearCell5.png');
+}
+
+.nuclearCell6 {
+    background-image: url('../img/components/nuclearCell6.png');
+}
+
+.nuclearCell7 {
+    background-image: url('../img/components/nuclearCell7.png');
+}
+
+.coalBurner {
+    background-image: url('../img/components/coalBurner.png');
+}
+
+.gasBurner {
+    background-image: url('../img/components/gasBurner.png');
+}
+
+.waterPipe {
+    background-image: url('../img/components/waterPipe.png');
+}
+
+.waterPump {
+    background-image: url('../img/components/waterPump.png');
+}
+
+.groundwaterPump {
+    background-image: url('../img/components/groundwaterPump.png');
+}
+
+.waterElement {
+    background-image: url('../img/components/waterElement.png');
+}
+
+.circulator {
+    background-image: url('../img/components/circulator.png');
+}
+
+.coolant {
+    background-image: url('http://reactoridle.com/img/components/coolant.png');
+}
+
+.researchCenter {
+    background-image: url('../img/components/researchCenter.png');
+}
+
+.researchCenter2 {
+    background-image: url('../img/components/researchCenter2.png');
+}
+
+.researchCenter3 {
+    background-image: url('../img/components/researchCenter3.png');
+}
+
+.bank {
+    background-image: url('../img/components/bank.png');
+}
+
+.bank2 {
+    background-image: url('../img/components/bank.png');
+}
+
+.boilerHouse {
+    background-image: url('../img/components/boilerHouse.png');
+}
+
+.chronometer {
+    background-image: url('../img/components/chronometer.png');
+}
+
+.grass1 {
+    background: rgb(68, 183, 22) url('../img/terrain/grass1.png');
+}
+
+.grass2 {
+    background: rgb(68, 183, 22) url('../img/terrain/grass2.png');
+}
+
+.grass3 {
+    background: rgb(68, 183, 22) url('../img/terrain/grass3.png');
+}
+
+.grass4 {
+    background: rgb(68, 183, 22) url('../img/terrain/grass4.png');
+}
+
+.sand1 {
+    background: rgb(237, 235, 160) url('../img/terrain/sand1.png');
+}
+
+.sand2 {
+    background: rgb(237, 235, 160) url('../img/terrain/sand2.png');
+}
+
+.water1 {
+    background: rgb(142, 227, 245) url('../img/terrain/water1.png');
+}
+
+.water2 {
+    background: rgb(142, 227, 245) url('../img/terrain/water2.png');
+}
+
+.water3 {
+    background: rgb(142, 227, 245) url('../img/terrain/water3.png');
+}
+
+.water4 {
+    background: rgb(142, 227, 245) url('../img/terrain/water4.png');
+}
+
+.mountain1 {
+    background: rgb(237, 235, 160) url('../img/terrain/mountain1.png');
+}
+
+.mountain2 {
+    background: rgb(237, 235, 160) url('../img/terrain/mountain2.png');
+}
+
+.mountain3 {
+    background: rgb(237, 235, 160) url('../img/terrain/mountain3.png');
+}
+
+.mountain4 {
+    background: rgb(237, 235, 160) url('../img/terrain/mountain4.png');
+}
+
+.water-grass-n {
+    background-image: url('../img/terrain/water-grass-n.png');
+}
+
+.water-grass-e {
+    background-image: url('../img/terrain/water-grass-e.png');
+}
+
+.water-grass-s {
+    background-image: url('../img/terrain/water-grass-s.png');
+}
+
+.water-grass-w {
+    background-image: url('../img/terrain/water-grass-w.png');
+}
+
+.water-grass-n-e {
+    background-image: url('../img/terrain/water-grass-n-e.png');
+}
+
+.water-grass-e-s {
+    background-image: url('../img/terrain/water-grass-e-s.png');
+}
+
+.water-grass-s-w {
+    background-image: url('../img/terrain/water-grass-s-w.png');
+}
+
+.water-grass-n-w {
+    background-image: url('../img/terrain/water-grass-n-w.png');
+}
+
+.water-grass-n-e-s {
+    background-image: url('../img/terrain/water-grass-n-e-s.png');
+}
+
+.water-grass-e-s-w {
+    background-image: url('../img/terrain/water-grass-e-s-w.png');
+}
+
+.water-grass-n-s-w {
+    background-image: url('../img/terrain/water-grass-n-s-w.png');
+}
+
+.water-grass-n-e-w {
+    background-image: url('../img/terrain/water-grass-n-e-w.png');
+}

@@ -1,0 +1,41 @@
+
+<div id="purchasesBg"></div>
+<div id="purchases">
+    <a href="javascript:void(0);" id="closePurchasesButton" style="float:right">Close</a>
+
+    <b>Extra</b><br/><br/>
+
+    <img src="./img/design/cool.jpg" style="float:left; margin: 5px;"/>
+    I really like making games and have been building them from my free time for a very long time. (Check my games)<br/>
+
+    But as game making is very time consuming (I have two young children and a full time job at a startup. So if you can
+    relate, imagine that :p),
+    I highly appreciate any support - would it be ideas, comments, criticism or monetary!<br/>
+
+    With this game I have good ideas on what features to add and if you like this game, I kindly ask you to show your
+    support by making a
+    purchase. I don't expect these games to pay a salary, but to cover at least some of the time I put into making them.
+    :)<br/>
+    I really don't like monetizing strategies games use nowadays - pay for every freaking move, so most certainly I will
+    not follow them.<br/>
+    <br/>
+    <table width="100%" class="purchaseTable">
+        {{#each purchases}}
+        <tr>
+            <td>{{name}}</td>
+            <td style="font-size:0.8em">{{#if is_bought}}Bought{{else}}{{price_str}}{{/if}}</td>
+            <td>{{{description}}}</td>
+            <td>
+                {{#if is_bought}}
+                Bought
+                {{else}}
+                <a href="javascript:void(0);" data-purchaseId="{{id}}" class="buyButton">Get it!</a>
+                {{/if}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+    <br/>
+    <span style="font-size:0.9em">* Bonus ticks allow the game to be run really really fast.</span><br/>
+    <span style="font-size:0.9em; color:gray">* If you have problems with purchases, write to reactoridle@inditel.ee. Please also attach your save game data.</span>
+</div>

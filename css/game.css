@@ -1,0 +1,197 @@
+.infoText {
+    width: 75%;
+    float: left;
+    height: 90px;
+    overflow: hidden;
+}
+
+.infoButtons {
+    width: 25%;
+    float: right;
+}
+
+.info .menu {
+
+}
+
+.info .menu a {
+    display: block;
+    float: left;
+    border: 1px solid lightslategray;
+    border-top: 0;
+    padding: 6px 10px 4px 10px;
+    margin: 0 2px 0 2px;
+    border-radius: 0 0 5px 5px;
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.info .description {
+    font-size: 0.9em;
+    color: lightgray;
+}
+
+.info .productionTitle {
+    font-size: 0.8em;
+}
+
+.info .menu a:hover {
+    background-color: lightslategray;
+}
+
+.info .autoRebuildButton {
+    display: block;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 5px;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.info .autoRebuildButton:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.info .autoRebuildButton .on {
+    color: greenyellow;
+}
+
+.info .autoRebuildButton .off {
+    color: red;
+}
+
+.info .cantBuyText {
+    color: red;
+    font-weight: bold;
+}
+
+.speedControls {
+
+}
+
+.speedControls .button {
+    display: block;
+    float: left;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 5px;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.speedControls .button:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.speedControls .stopButton {
+    border: 1px solid red;
+    width: 50px;
+}
+
+.speedControls .playButton {
+    border: 1px solid lightgreen;
+    width: 50px;
+}
+
+.speedControls .playFastButton {
+    width: 75px;
+    border: 1px solid orange;
+}
+
+.speedControls .playNormalButton {
+    width: 75px;
+}
+
+.speedControls .bonusTicks {
+    display: block;
+    clear: both;
+    font-size: 0.9em;
+    color: rgb(253, 422, 47);
+    padding-left: 15px;
+}
+
+.speedControls .bonusTicks span {
+    font-weight: bold;
+}
+
+.overview {
+    padding: 4px;
+
+}
+
+.overview .textLine {
+    padding-left: 3px;
+}
+
+.overview .productionTitle {
+
+}
+
+.overview .productionTitle {
+    font-size: 0.8em;
+}
+
+.overview .have {
+    font-weight: bold;
+}
+
+.overview .production {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.overview .powerBarArea {
+    margin: 5px 0 0 0;
+    border: 1px solid rgb(65, 65, 65);
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+
+.overview .powerBarArea .bar {
+    width: 50%;
+    height: 5px;
+    background-color: lightblue;
+}
+
+.overview .powerBarArea .barWarning1 {
+    background-color: orange;
+}
+
+.overview .powerBarArea .barWarning2 {
+    background-color: red;
+}
+
+.overview .sellPowerButton {
+    display: block;
+    text-align: center;
+    margin: 5px auto 0 auto;
+    width: 150px;
+    color: lightblue;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.overview .sellPowerButton:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.overview .sellPowerButtonHighlighted {
+    background-color:red;
+    color:white;
+}
+
+.overview .sellPowerButtonHighlighted:hover {
+    background-color:green;
+}
+
+.overview .sellPowerButton:active {
+    background-color: black;
+}

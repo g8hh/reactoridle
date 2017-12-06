@@ -1,0 +1,28 @@
+
+<span class="upgradesBackButton" id="backToReactor">Back to reactor</span>
+
+<div class="upgradeDescription">
+    You have <b id="money" class="money"></b> to spend. Make it count!<br/>
+    <span style="font-size:0.8em">Upgrades apply only to selected power plant (island, village, city, metropolis etc). Selling will give 80% of the value.</span>
+</div><br/>
+{{#each upgrades}}
+{{#if changeGroup}}
+<br style="clear:left"/><br/>
+{{/if}}
+<div class="upgradeItem">
+
+    <div class="buyButton" data-id="{{id}}">BUY</div>
+    {{#if canSell}}
+    <div class="sellButton" data-id="{{id}}">SELL</div>
+    {{/if}}
+    <div class="component {{icon}}" style="float:left;"></div>
+    <div style="float:left; width: 290px; white-space: nowrap; overflow:hidden;">
+        {{name}}
+        <span class="priceTitle">Buy:</span><span class="money">${{price}}</span>
+    </div>
+    <div class="description">
+        Lvl:<span class="bought" data-id="{{id}}"></span>&nbsp;{{bonus}}
+    </div>
+
+</div>
+{{/each}}

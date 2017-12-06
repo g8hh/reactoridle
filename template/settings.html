@@ -1,0 +1,28 @@
+
+<div id="settingsBg"></div>
+<div id="settings" style="width:600px">
+    <a href="javascript:void(0);" id="closeButton" style="float:right; display:block;">Close</a><br/>
+    <br/>
+    This is your game save data. Copy it and store at some safe place :)<br/>
+    <textArea type="textArea" name="saveData" id="saveData" class="saveData"></textArea><br/>
+    If you want to load a game, replace save game data and click
+    <a href="javascript:void(0);" id="loadButton">LOAD</a><br/>
+    <br/>
+    <br/>
+    {{#if hasPaypal}}
+    This is your user hash. If you made any purchases, copy this to a safe place. All your purchases are bind to this
+    hash. Keep it safe, as if it gets public purchases will be automatically disabled<br/>
+    In case you switched computer or browser, copy old user hash here and update it. <br/>
+    <input type="text" name="userHash" id="userHash" class="userHash"/><br/>
+    <a href="javascript:void(0);" id="userHashButton">Update user hash (Will refresh the game!)</a><br/>
+    <br/>
+    <br/>
+    {{/if}}
+
+    <div style="text-align:center">
+        <a href="javascript:void(0);" id="resetButton" style="color:red;">Hard reset</a>
+    </div>
+    <br/>
+    <br/>
+    <center>VER: 1.11</center>
+</div>

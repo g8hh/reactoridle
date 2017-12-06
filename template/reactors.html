@@ -1,0 +1,39 @@
+
+<div class="reactors">
+    <div class="header">
+        You have <span class="money">$<b id="money" class="money"></b></span> to spend. Isn't that nice.
+    </div>
+    <div class="help">
+        Buy more land to create even bigger power empire. Go ahead, buy some!
+    </div>
+    <div class="selectButtons">
+        {{#each reactors}}
+        <div class="reactorSelect {{design}}">
+            <div class="description">
+                {{name}}
+            </div>
+
+            {{#if isBought}}
+
+            <div class="productionTitle">Income</div>
+
+            <div class="textLine money" data-id="{{id}}">-</div>
+            <div class="productionTitle">Research</div>
+
+            <div class="textLine research" data-id="{{id}}">-</div>
+
+            <div class="button selectButton" data-id="{{id}}">SELECT</div>
+
+            {{else}}
+
+            <div class="productionTitle price">Price</div>
+
+            <div class="textLine money">{{price}}</div>
+            <div class="button buyButton" data-id="{{id}}">BUY</div>
+
+            {{/if}}
+
+        </div>
+        {{/each}}
+    </div>
+</div>

@@ -1,0 +1,10 @@
+
+Components <br/>
+{{#each components}}
+{{#if showBreak}}
+<br style="clear:both"/>
+{{/if}}
+<div class="componentButton but{{id}}" data-id="{{id}}">
+    <div class="component {{id}}" data-id="{{id}}"></div>
+</div>
+{{/each}}
