@@ -1,10 +1,10 @@
 
 <div class="reactors">
     <div class="header">
-        You have <span class="money">$<b id="money" class="money"></b></span> to spend. Isn't that nice.
+        你拥有 <span class="money">$<b id="money" class="money"></b></span> 可以消费，这是非常不错的。
     </div>
     <div class="help">
-        Buy more land to create even bigger power empire. Go ahead, buy some!
+        购买更多的土地，创造更大的帝国。 来吧，买一些！
     </div>
     <div class="selectButtons">
         {{#each reactors}}
@@ -15,21 +15,21 @@
 
             {{#if isBought}}
 
-            <div class="productionTitle">Income</div>
+            <div class="productionTitle">收入</div>
 
             <div class="textLine money" data-id="{{id}}">-</div>
-            <div class="productionTitle">Research</div>
+            <div class="productionTitle">研究</div>
 
             <div class="textLine research" data-id="{{id}}">-</div>
 
-            <div class="button selectButton" data-id="{{id}}">SELECT</div>
+            <div class="button selectButton" data-id="{{id}}">选择</div>
 
             {{else}}
 
-            <div class="productionTitle price">Price</div>
+            <div class="productionTitle price">价格</div>
 
             <div class="textLine money">{{price}}</div>
-            <div class="button buyButton" data-id="{{id}}">BUY</div>
+            <div class="button buyButton" data-id="{{id}}">购买</div>
 
             {{/if}}
 

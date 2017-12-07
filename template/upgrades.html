@@ -1,9 +1,9 @@
 
-<span class="upgradesBackButton" id="backToReactor">Back to reactor</span>
+<span class="upgradesBackButton" id="backToReactor">回到反应堆</span>
 
 <div class="upgradeDescription">
-    You have <b id="money" class="money"></b> to spend. Make it count!<br/>
-    <span style="font-size:0.8em">Upgrades apply only to selected power plant (island, village, city, metropolis etc). Selling will give 80% of the value.</span>
+    你拥有 <b id="money" class="money"></b> 可以消费，让它变得更多吧!<br/>
+    <span style="font-size:0.8em">升级只适用于选定的电厂（岛，村，城市，大都会等）。 出售将退回80％的成本。</span>
 </div><br/>
 {{#each upgrades}}
 {{#if changeGroup}}
@@ -11,17 +11,17 @@
 {{/if}}
 <div class="upgradeItem">
 
-    <div class="buyButton" data-id="{{id}}">BUY</div>
+    <div class="buyButton" data-id="{{id}}">购买</div>
     {{#if canSell}}
-    <div class="sellButton" data-id="{{id}}">SELL</div>
+    <div class="sellButton" data-id="{{id}}">出售</div>
     {{/if}}
     <div class="component {{icon}}" style="float:left;"></div>
     <div style="float:left; width: 290px; white-space: nowrap; overflow:hidden;">
         {{name}}
-        <span class="priceTitle">Buy:</span><span class="money">${{price}}</span>
+        <span class="priceTitle">购买:</span><span class="money">${{price}}</span>
     </div>
     <div class="description">
-        Lvl:<span class="bought" data-id="{{id}}"></span>&nbsp;{{bonus}}
+        等级:<span class="bought" data-id="{{id}}"></span>&nbsp;{{bonus}}
     </div>
 
 </div>

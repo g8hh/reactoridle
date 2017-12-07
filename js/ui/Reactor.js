@@ -7,7 +7,7 @@ var c=function(e,o,r,a){1==o?new t(e,i.selectedComponent).build(r,a):3==o&&new n
 $(document).keyup(function(){s=null,l=null}),$(".tile").mousedown(function(e){var t=$(e.target),n=i.reactor.getTile(Number(t.attr("data-x")),Number(t.attr("data-y")))
 s=e.which,l=e.shiftKey,c(n,s,e.ctrlKey,!1)}).mouseover(function(t){t=$(t.target),t.css("cursor","pointer")
 var n=i.reactor.getTile(Number(t.attr("data-x")),Number(t.attr("data-y")))
-if(!n||!n.canBuild())return void i.reactor.getGame().getEventManager().invokeEvent(UiEvent.showInfo,"text","You can't build on this tile")
+if(!n||!n.canBuild())return void i.reactor.getGame().getEventManager().invokeEvent(UiEvent.showInfo,"text","你不能在这个地块上建造")
 if(s&&l&&c(n,s,!1,!0),n.getMeta())i.reactor.getGame().getEventManager().invokeEvent(UiEvent.showInfo,"tile",n)
 else{var o="You can add components to this tile. You can start with wind turbines, they produce power that you can sell for more money."
 if(i.selectedComponent){var r=new e(n,i.selectedComponent),a=r.canBuild()||r.canRestore()
