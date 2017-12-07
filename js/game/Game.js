@@ -13,4 +13,4 @@ for(var e in this.reactors)t[3][e]=this.reactors[e].getSaveData()
 return t[4]=(new Date).getTime(),t[5]=this.bonusTicks,t[6]=this.purchases,t[7]=this.totalMoney,t[8]=this.totalTicks,t[9]=this.externalPurchases,t},n.prototype.updateFromSaveData=function(t,e){if(t){this.money=Number(t[0]),this.totalMoney=Number(t[7]?t[7]:0),this.totalTicks=Number(t[8]?t[8]:0),this.researchPoints=Number(t[1]),this.researches=t[2]?t[2]:{}
 for(var s in this.reactors)this.reactors[s].updateFromSaveData(t[3][s])
 if(this.setBonusTicks(t[5]?Number(t[5]):0),this.purchases=t[6]?t[6]:{},this.externalPurchases=t[9]?t[9]:{},e&&!isNaN(Number(t[4]))&&r.getConfirmedTimestamp()){var n=r.getConfirmedTimestamp()-Number(t[4]),i=Math.round(n/(1e3*this.meta.offlineSlower)*(1e3/this.getTickInterval(!1))),o=this.meta.maxBonusTicks*(1e3/this.getTickInterval(!1))
-i>o&&(i=o),i<this.meta.minBonusTicks&&(i=0),logger.info("Bonus ticks gained: "+i),this.addBonusTicks(i)}}},n})
+i>o&&(i=o),i<this.meta.minBonusTicks&&(i=0),logger.info("每秒得到奖金: "+i),this.addBonusTicks(i)}}},n})

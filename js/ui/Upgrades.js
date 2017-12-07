@@ -9,7 +9,7 @@ var p=new t(this.reactor,d)
 s.push({id:d.id,name:d.name,description:d.description,max:d.max,price:nf(p.getPrice()),priceResearchPoints:nf(p.getResearchPointsPrice()),bonus:this.upgradeCalculator.getInfoText(d),icon:g,changeGroup:c&&c!=d.group,canSell:d.allowSelling&&this.reactor.getUpgrade(d.id)>0}),c=d.group}}this.container.html(Handlebars.compile(e)({upgrades:s})),this.game.getEventManager().addListener(GameEvent.moneyChanged,i,function(){o.update()}),this.container.find(".buyButton").click(function(e){var a=$(e.target).attr("data-id"),n=new t(o.reactor,o.game.getMeta().upgradesById[a]),i=function(){if(n.canBuy()){n.buy()
 var e=o.container
 o.destroy(),o.display(e)}},s=n.getFirstBuyWarning()
-s?new r("Warning",s,function(){i()}).display():i()}),this.container.find(".sellButton").click(function(e){var t=$(e.target).attr("data-id"),n=new a(o.reactor,o.game.getMeta().upgradesById[t])
+s?new r("警告",s,function(){i()}).display():i()}),this.container.find(".sellButton").click(function(e){var t=$(e.target).attr("data-id"),n=new a(o.reactor,o.game.getMeta().upgradesById[t])
 if(n.canSell()){n.sell()
 var r=o.container
 o.destroy(),o.display(r)}}),$("#backToReactor").click(function(){o.game.getEventManager().invokeEvent(UiEvent.selectReactor)}),this.update()},o.prototype.update=function(){this.container.find("#money").html("$"+nf(this.game.getMoney()))
