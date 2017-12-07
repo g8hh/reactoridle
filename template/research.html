@@ -2,9 +2,9 @@
 <span class="researchBackButton" id="backToReactor">回到反应堆</span>
 
 <div class="researchDescription">
-    You have <b id="researchPoints" class="research"></b> research points. Use them wisely! You have researched <span
-        id="technologies"></span> technologies.<br/>
-    <span style="font-size:0.8em">Research applies to every area (village, city, metropolis etc).</span>
+    你拥有 <b id="researchPoints" class="research"></b> 研究点。明智地使用它们! 你已经研究 <span
+        id="technologies"></span> 技术.<br/>
+    <span style="font-size:0.8em">研究适用于每一个区（村庄，城市，大都市等）。</span>
 </div><br/>
 {{#each research}}
 {{#if changeGroup}}
@@ -12,7 +12,7 @@
 {{/if}}
 <div class="researchItem">
 
-    <div class="buyButton" data-id="{{id}}">BUY</div>
+    <div class="buyButton" data-id="{{id}}">购买</div>
 
     <div class="component {{icon}}" style="float:left;"></div>
     {{name}}
@@ -21,11 +21,11 @@
     {{/if}}
     &nbsp;&nbsp;&nbsp;&nbsp;
     {{#if price}}
-    <span class="priceTitle">Price:</span><span class="money">{{price}}</span>
+    <span class="priceTitle">价格:</span><span class="money">{{price}}</span>
     {{/if}}
 
     {{#if priceResearchPoints}}
-    <span class="priceTitle">Research:</span><span class="research">{{priceResearchPoints}}</span>
+    <span class="priceTitle">研究:</span><span class="research">{{priceResearchPoints}}</span>
     {{/if}}
     <br/>
 

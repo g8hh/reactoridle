@@ -3,21 +3,20 @@
 <div id="purchases">
     <a href="javascript:void(0);" id="closePurchasesButton" style="float:right">Close</a>
 
-    <b>Extra</b><br/><br/>
+    <b>附加</b><br/><br/>
 
     <img src="./img/design/cool.jpg" style="float:left; margin: 5px;"/>
-    I really like making games and have been building them from my free time for a very long time. (Check my games)<br/>
+    我真的很喜欢制作游戏，并且从很长时间的空闲时间开始制作游戏。 （查看我的游戏）<br/>
 
-    But as game making is very time consuming (I have two young children and a full time job at a startup. So if you can
-    relate, imagine that :p),
-    I highly appreciate any support - would it be ideas, comments, criticism or monetary!<br/>
+    但是由于制作游戏非常耗时（我有两个年幼的孩子和一个创业公司的全职工作，所以如果可以的话
+     相关，想象：p），
+     我高度赞赏任何支持 - 是想法，评论，批评还是金钱！<br/>
 
-    With this game I have good ideas on what features to add and if you like this game, I kindly ask you to show your
-    support by making a
-    purchase. I don't expect these games to pay a salary, but to cover at least some of the time I put into making them.
-    :)<br/>
-    I really don't like monetizing strategies games use nowadays - pay for every freaking move, so most certainly I will
-    not follow them.<br/>
+    有了这个游戏，我有什么功能添加好点子，如果你喜欢这个游戏，我恳请你展示你的
+     通过使一个支持
+     采购。 我不希望这些游戏支付薪水，但至少有一部分时间是我付诸实施的。
+    :)<br/>
+    我真的不喜欢今天游戏使用的货币化策略 - 为每一个吓人的举动付出代价，所以我肯定不会跟随他们。<br/>
     <br/>
     <table width="100%" class="purchaseTable">
         {{#each purchases}}
@@ -27,15 +26,15 @@
             <td>{{{description}}}</td>
             <td>
                 {{#if is_bought}}
-                Bought
+                购买
                 {{else}}
-                <a href="javascript:void(0);" data-purchaseId="{{id}}" class="buyButton">Get it!</a>
+                <a href="javascript:void(0);" data-purchaseId="{{id}}" class="buyButton">获取!</a>
                 {{/if}}
             </td>
         </tr>
         {{/each}}
     </table>
     <br/>
-    <span style="font-size:0.9em">* Bonus ticks allow the game to be run really really fast.</span><br/>
-    <span style="font-size:0.9em; color:gray">* If you have problems with purchases, write to reactoridle@inditel.ee. Please also attach your save game data.</span>
+    <span style="font-size:0.9em">* 奖金允许游戏运行非常非常快.</span><br/>
+    <span style="font-size:0.9em; color:gray">* 如果您在购买时遇到问题，请写信给reactoridle@inditel.ee。 请附上您的保存游戏数据。</span>
 </div>
