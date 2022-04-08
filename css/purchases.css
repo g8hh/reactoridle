@@ -1,0 +1,53 @@
+#purchasesBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.5;
+}
+
+#purchases {
+    width: 700px;
+    position: absolute;
+    top: 10px;
+    padding: 15px;
+    color: black;
+    border: 1px solid rgb(225, 225, 232);
+    border-radius: 8px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+}
+
+#purchases #closePurchasesButton {
+    color:black;
+}
+
+
+#purchases a {
+    color: white;
+    font-weight: bold;
+}
+
+#purchases .buyButton {
+    display: block;
+    width: 50px;
+    margin: 5px auto 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    padding: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#purchases .buyButton:hover {
+    background-color: lightgreen;
+}
+
+.purchaseTable td {
+    padding: 0 0 5px 0;
+    border-bottom: 1px dashed gray;
+}

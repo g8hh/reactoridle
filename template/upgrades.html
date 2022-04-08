@@ -1,0 +1,28 @@
+
+<span class="upgradesBackButton" id="backToReactor">回到反应堆</span>
+
+<div class="upgradeDescription">
+    你拥有 <b id="money" class="money"></b> 可以消费，让它变得更多吧!<br/>
+    <span style="font-size:0.8em">升级只适用于选定的电厂（岛，村，城市，大都会等）。 出售将退回80％的成本。</span>
+</div><br/>
+{{#each upgrades}}
+{{#if changeGroup}}
+<br style="clear:left"/><br/>
+{{/if}}
+<div class="upgradeItem">
+
+    <div class="buyButton" data-id="{{id}}">购买</div>
+    {{#if canSell}}
+    <div class="sellButton" data-id="{{id}}">出售</div>
+    {{/if}}
+    <div class="component {{icon}}" style="float:left;"></div>
+    <div style="width: 290px; white-space: nowrap; overflow:hidden;">
+        {{name}}
+        <span class="priceTitle">购买:</span><span class="money">${{price}}</span>
+    </div>
+    <div class="description">
+        等级:<span class="bought" data-id="{{id}}"></span>&nbsp;{{bonus}}
+    </div>
+
+</div>
+{{/each}}

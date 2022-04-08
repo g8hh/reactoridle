@@ -1,0 +1,40 @@
+
+<div id="purchasesBg"></div>
+<div id="purchases">
+    <a href="javascript:void(0);" id="closePurchasesButton" style="float:right">Close</a>
+
+    <b>附加</b><br/><br/>
+
+    <img src="./img/design/cool.jpg" style="float:left; margin: 5px;"/>
+    我真的很喜欢制作游戏，并且从很长时间的空闲时间开始制作游戏。 （查看我的游戏）<br/>
+
+    但是由于制作游戏非常耗时（我有两个年幼的孩子和一个创业公司的全职工作，所以如果可以的话
+     相关，想象：p），
+     我高度赞赏任何支持 - 是想法，评论，批评还是金钱！<br/>
+
+    有了这个游戏，我有什么功能添加好点子，如果你喜欢这个游戏，我恳请你展示你的
+     通过使一个支持
+     采购。 我不希望这些游戏支付薪水，但至少有一部分时间是我付诸实施的。
+    :)<br/>
+    我真的不喜欢今天游戏使用的货币化策略 - 为每一个吓人的举动付出代价，所以我肯定不会跟随他们。<br/>
+    <br/>
+    <table width="100%" class="purchaseTable">
+        {{#each purchases}}
+        <tr>
+            <td>{{name}}</td>
+            <td style="font-size:0.8em">{{#if is_bought}}Bought{{else}}{{price_str}}{{/if}}</td>
+            <td>{{{description}}}</td>
+            <td>
+                {{#if is_bought}}
+                购买
+                {{else}}
+                <a href="javascript:void(0);" data-purchaseId="{{id}}" class="buyButton">获取!</a>
+                {{/if}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+    <br/>
+    <span style="font-size:0.9em">* 奖金允许游戏运行非常非常快.</span><br/>
+    <span style="font-size:0.9em; color:gray">* 如果您在购买时遇到问题，请写信给reactoridle@inditel.ee。 请附上您的保存游戏数据。</span>
+</div>

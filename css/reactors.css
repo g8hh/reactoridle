@@ -1,0 +1,93 @@
+
+.reactors .header {
+    padding: 6px;
+    border-bottom: 1px dotted lightgray;
+}
+
+.reactors .help {
+    padding: 6px;
+    font-size: 0.9em;
+    border-bottom: 1px dotted lightgray;
+}
+
+.reactors .selectButtons {
+    margin: 10px 0 10px 0;
+}
+
+.reactors .backyard {
+    background: black url("../img/reactors/backyard.png") no-repeat;
+}
+
+.reactors .village {
+    background: black url("../img/reactors/village.png") no-repeat;
+}
+
+.reactors .region {
+    background: black url("../img/reactors/region.png") no-repeat;
+}
+
+.reactors .city {
+    background: black url("../img/reactors/city.png") no-repeat;
+}
+
+.reactors .metropolis {
+    background: black url("../img/reactors/metropolis.png") no-repeat;
+}
+
+.reactorSelect {
+    display: block;
+    border: 5px solid gray;
+    border-radius: 10px;
+    width: 148px;
+    height: 150px;
+    float: left;
+    margin: 5px;
+    padding: 5px 5px 15px 5px;
+    text-align: center;
+}
+
+.reactorSelect .description {
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.reactorSelect .productionTitle {
+    font-size: 0.8em;
+    color: lightgray;
+}
+
+.reactorSelect .price {
+    margin-top: 10px;
+}
+
+.reactorSelect .button {
+    width: 120px;
+    height: 16px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 18px auto 0 auto;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border: 3px solid orange;
+    padding: 5px;
+}
+
+.reactorSelect .buyButton {
+    border: 3px solid green;
+    background-color: greenyellow;
+    margin: 36px auto 0 auto;
+}
+
+.reactorSelect .cantBuy {
+    background-color: rgb(227, 227, 227);
+    border: 3px solid red;
+    font-size: 0.9em;
+    color: red;
+    font-weight: normal;
+    cursor: no-drop;
+}

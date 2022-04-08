@@ -1,0 +1,114 @@
+
+html {
+    overflow-y: scroll;
+    height: 100%;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    height: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: black url("../img/design/background.png");
+}
+
+body, html, div, span, td {
+/*
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+*/
+}
+
+#main {
+    margin: 0 auto 0 auto;
+    width: 898px;
+    height: 598px;
+}
+
+.mainWithAdd {
+    width: 1198px !important;
+}
+
+#topCommercial {
+    display: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    width: 898px;
+    height: 90px;
+}
+
+#topCommercial .inner {
+    width: 768px;
+    margin: 0 auto 0 auto;
+}
+
+#rightCommercial {
+    float: right;
+    display: none;
+    width: 300px;
+    height: 600px;
+}
+
+#gameArea {
+    width: 898px;
+    height: 598px;
+}
+
+.components {
+    width: 247px;
+}
+
+.reactor {
+    height: 500px;
+}
+
+.overview {
+    border-bottom: 1px dotted gray;
+}
+
+.overviewBox {
+    width: 247px;
+    overflow: hidden;
+}
+
+.info {
+    height: 97px;
+    border-bottom: 1px dotted gray;
+}
+
+.money {
+    color: yellow;
+}
+
+.research {
+    color: rgb(139, 174, 66);
+}
+
+.power {
+    color: lightblue;
+}
+
+.ticks {
+    color: greenyellow;
+}
+
+.maxHeat {
+    color: orange;
+}
+
+.heat {
+    color: red;
+}
+
+.maxWater {
+    color: rgb(129, 111, 255);
+}
+
+.water {
+    color: rgb(129, 111, 255);
+}

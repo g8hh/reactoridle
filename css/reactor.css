@@ -1,0 +1,66 @@
+
+.textLine {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.componentButton {
+    border: 2px solid rgb(35, 35, 35);
+    border-radius: 5px;
+    background-color: black;
+    padding: 2px;
+    margin: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.componentButtonSelected {
+    border: 2px solid rgb(139, 174, 66);
+    padding: 2px;
+    margin: 1px;
+}
+
+.reactorTable {
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+.reactorTable .tileArea {
+    width: 25px;
+    height: 25px;
+    float: left;
+    overflow: visible;
+}
+
+.reactorTable .tile {
+    width: 25px;
+    height: 25px;
+}
+
+.reactorTable .buildable {
+    cursor: pointer;
+}
+
+.component {
+    width: 25px;
+    height: 25px;
+}
+
+.componentBar {
+    margin-top: 23px;
+    height: 2px;
+    width: 0;
+    float: left;
+}
+
+.componentBarHeat {
+    background-color: red;
+}
+
+.componentBarLifetime {
+    background-color: yellow;
+}
+
+.componentBarWater {
+    background-color: rgb(181, 238, 255);
+}
